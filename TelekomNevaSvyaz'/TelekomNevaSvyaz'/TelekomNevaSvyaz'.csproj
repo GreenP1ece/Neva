@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>TelekomNevaSvyaz_</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\RepPas.jpg" />
+    <None Remove="Images\Лого ТНС.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\RepPas.jpg" />
+    <Resource Include="Images\Лого ТНС.jpg" />
+  </ItemGroup>
+
+</Project>
